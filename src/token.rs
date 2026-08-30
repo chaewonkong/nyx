@@ -9,10 +9,13 @@ pub enum TokenKind {
     Int(i64),
     Ident(String),
     Eq,
+    Space,
     Plus,
     Minus,
     Aesterisk,
+    Newline,
     Slash,
+    Eof,
     Unknown(char),
 }
 
